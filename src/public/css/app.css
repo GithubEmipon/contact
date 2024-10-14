@@ -1,0 +1,48 @@
+.header {
+    background: #fff;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    text-align: center;
+    color: #937A6C;
+    font-size: 40px;
+    font-family: "Noticia Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-utilities nav {
+    width: 18%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.header-nav__button{
+    position: flex;
+    top: 10%;
+    right: 70%;
+    left: 30%;
+    border: 2px solid #FAEBD7;
+    float: left;
+    color: #B2948C;
+
+}

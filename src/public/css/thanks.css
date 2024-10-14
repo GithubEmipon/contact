@@ -1,0 +1,93 @@
+.header {
+    background: #fff;
+}
+
+.thanks__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.baseBox {
+    /* --- 親BOXの定義 --------------------------------------------*/
+    display: inline-block;
+    /* インラインブロック化 */
+    position: relative;
+    /* 親要素               */
+    overflow: hidden;
+    /* はみ出しは非表示     */
+    margin: 0 auto;
+    /* BOXの位置(中央寄せ)  */
+    width: 400px;
+    /* BOXの横幅            */
+    height: 160px;
+    /* BOXの高さ            */
+    background: #fff;
+    /* BOXの背景色          */
+}
+
+/* --- 前面文字の定義 -----------------------------------------*/
+.base .frontStr {
+    color: #937A6C;
+    display: inline-block;
+    /* インラインブロック化 */
+    position: absolute;
+    /* 親要素からの相対位置 */
+    padding: 20px;
+    /* BOX内の余白          */
+    font-size: 13pt;
+    /* 前景文字のサイズ     */
+    font-weight: bold;
+    /* 親要素にサイズにする */
+    top: 45%;
+    left: 40%;
+    right: 0;
+    bottom: 0;
+}
+
+/* --- 背景透かし文字の定義 -----------------------------------*/
+.base .backStr {
+    color: #937A6C;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    /* 親要素からの相対位置 */
+    display: inline-block;
+    /* インラインブロック化 */
+    white-space: nowrap;
+    /* 折り返ししない       */
+    font-size: 130pt;
+    /* 背景透かし文字サイズ */
+    font-weight: bold;
+    /* 太字                 */
+    color: rgba(153, 153, 153, 0.10);
+    /* 背景透かし文字色     */
+    /* 中心寄せ＆角度       */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.base .form__button {
+    display: inline-block;
+    /* インラインブロック化 */
+    position: absolute;
+    border: none;
+    padding: 20px;
+    /* BOX内の余白          */
+    font-size: 13pt;
+    /* 前景文字のサイズ     */
+    font-weight: bold;
+    border-radius: 3px;
+    background: #937A6C;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    top: 55%;
+    left: 48%;
+    right: 0;
+    bottom: 0;
+
+}

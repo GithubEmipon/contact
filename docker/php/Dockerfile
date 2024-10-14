@@ -11,3 +11,6 @@ RUN curl -sS https://getcomposer.org/installer | php \
   && composer self-update
 
 WORKDIR /var/www
+
+RUN apt-get install libicu-dev -y
+RUN docker-php-ext-install intl
